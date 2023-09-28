@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesijné portfólio - Natália Lajdová</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/bogart" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/bogart');
+    </style>
+<script src="https://kit.fontawesome.com/dc48f13b89.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="gallery/logo.jpg" class="logo" width="150" weight="150">
+                <ul id="sidemenu">
+                    <li><a href="#header">Domov</a></li>
+                    <li><a href="#about">O mne</a></li>
+                    <li><a href="#services">Služby</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+        <div>
+        <h1>Prekladateľské služby v kombinácii AJ-SJ</h1>
+        <p>Mgr. Natália Lajdová</p>
+        </div>
+        <div class="header-image">
+        <img src="gallery/nordwood-themes-bJjsKbToY34-unsplash.jpg" class="background-image" width="700">
+        </div>
+        </div>
+        </div>
+    </div>
+    <!-- --------------about---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="column" id="about-col-1">
+                    <div class="image-container">
+                    <img src="gallery/moja foto.jpg">
+                    </div>
+                </div>
+                <div class="column" id="about-col-2">
+                    <h1 class="sub-title">O mne</h1>
+                    <p class="aligned-paragraph-1">
+                        Volám sa Natália Lajdová a som absolventkou odboru prekladateľstva a tlmočníctva magisterského 
+                        stupňa štúdia na UKF v Nitre. Venujem sa prekladu a tlmočeniu medzi troma jazykmi – anglickým, 
+                        francúzskym a slovenským.
+                    </p>
+
+                    <p class="aligned-paragraph-2">
+                        Za moju silnú stránku považujem schopnosť rozdeliť si prácu tak, aby som zadanie stíhala, pričom
+                         si vždy nechávam dostatok času na kontrolu. Za ďalšiu prednosť považujem orientáciu na detail, 
+                         ktorá zabezpečuje vysokú kvalitu mojej práce. V poslednom rade by som rada uviedla môj aktívny 
+                         záujem o dianie vo svete (čítanie článkov v cudzích jazykoch, sledovanie reportáží a pod.), vďaka
+                          ktorému prichádzam do neustáleho kontaktu s cudzími jazykmi a sledujem ich vývin v modernej dobe.
+                    </p>
+
+                    <p class="aligned-paragraph-3"> 
+                        Svoje jazykové znalosti som mala príležitosť zdokonaliť aj v práci v Anglicku, kde som pracovala v 
+                        hoteli Macdonald Alveston Manor v meste Stratford upon Avon. Ďalšou príležitosťou na zlepšenie 
+                        komunikačných schopností v cudzom jazyku bolo aj štúdium na 
+                        zahraničnej univerzite, ktoré som absolvovala v roku 2022 vďaka programu Erasmus+. Išlo o štúdium 
+                        na Univerzite vo Verone, kde som počas piatich mesiacov absolvovala predmety zamerané na angličtinu 
+                        v medzinárodnom kontexte. Okrem „klasickej“ britskej a americkej angličtiny som sa stretla aj so 
+                        špecifickými variantmi angličtiny, ktoré sa používajú v Singapure, Amerike v afroamerických komunitách, 
+                        Kanade, Austrálii a mnohých ďalších oblastiach. Mala som možnosť komunikovať so študentmi z rôznych 
+                        krajín a kultúr a fungovať v medzinárodnom prostredí. Počas zahraničného štúdia som simultánne 
+                        absolvovala aj predmety na UKF v Nitre, čo ma naučilo schopnosti time-managementu a ako zefektívniť 
+                        svoju prácu, aby som dosiahla vyšší výkon a produktivitu. Pritom som absolvovala kurz angličtiny C2, 
+                        z ktorého som získala aj osvedčenie o jeho absolvovaní vo forme certifikátu o jazykovej úrovni.
+                        </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Zručnosti')">Zručnosti</p>
+                        <p class="tab-links" onclick="opentab('Jazyková úroveň')">Jazyková úroveň</p>
+                        <p class="tab-links" onclick="opentab('Vzdelanie')">Vzdelanie</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Zručnosti">
+                        <ul>
+                            <li><span>Prekladateľské služby</span><br>Preklad anglických a slovenských textov v oboch smeroch</li>
+                            <li><span>Práca s CAT tools</span><br>Využívanie prekladateľských softvérov (Phrase, Trados Studio...)</li>
+                            <li><span>Práca s titulkovacími nástrojmi</span><br>Tvorba a preklad titulkov</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Jazyková úroveň">
+                        <ul>
+                            <li><span>Slovenský jazyk</span><br>Rodený hovoriaci</li>
+                            <li><span>Anglický jazyk</span><br>C2</li>
+                            <li><span>Francúzsky jazyk</span><br>B2</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Vzdelanie">
+                        <ul>
+                            <li><span class="nadpis-uni">Univerzita Konštantína filozofa v Nitre</span><br>Prekladateľstvo a tlmočníctvo</li>
+                            <li><span>2018 - 2021</span><br>bakalársky titul</li>
+                            <li><span>2021 - 2023</span><br>magisterský titul</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------služby------------ -->
+    
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Služby</h1>
+                <div class="services-list">
+                <div class="box" id="leftbox">
+                    <i class="fa-solid fa-language"></i>
+                    <h2>Preklad textov</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Facilis, repudiandae quibusdam praesentium obcaecati nesciunt 
+                        asperiores similique. At aperiam impedit doloribus dolor ratione 
+                        illum quibusdam ea iste corrupti officiis. Cumque, eveniet?</p>
+                        <a href="#">Viac informácií</a>
+                </div>
+                <div class="box" id="middlebox">
+                    <i class="fa-solid fa-check"></i>
+                    <h2>Korektúra textov</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Facilis, repudiandae quibusdam praesentium obcaecati nesciunt 
+                        asperiores similique. At aperiam impedit doloribus dolor ratione 
+                        illum quibusdam ea iste corrupti officiis. Cumque, eveniet?</p>
+                        <a href="#">Viac informácií</a>
+                </div>
+                <div class="box" id="rightbox">
+                    <i class="fa-solid fa-closed-captioning"></i>
+                    <h2>Tvorba titulkov</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Facilis, repudiandae quibusdam praesentium obcaecati nesciunt 
+                        asperiores similique. At aperiam impedit doloribus dolor ratione 
+                        illum quibusdam ea iste corrupti officiis. Cumque, eveniet?</p>
+                        <a href="#">Viac informácií</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------portfólio--------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfólio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="gallery/christin-hume-Hcfwew744z4-unsplash.jpg">
+                    <div class="layer">
+                        <h3>Ukážka odborných prekladov</h3>
+                        <p>Kliknite na odkaz nižšie pre zobrazenie mojej práce v oblasti odborného prekladu.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="gallery/slovník.jpg">
+                    <div class="layer">
+                        <h3>Ukážka umeleckých prekladov</h3>
+                        <p>Kliknite na odkaz nižšie pre zobrazenie mojej práce v oblasti umeleckého prekladu.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="gallery/subtitle.jpg">
+                    <div class="layer">
+                        <h3>Ukážka audiovizuálnych prekladov</h3>
+                        <p>Kliknite na odkaz nižšie pre zobrazenie mojej práce v oblasti audiovizuálneho prekladu.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Viac</a>
+        </div>
+    </div>
+    <!-- ----------Kontakt---------- -->
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">Kontakt</h1>
+            <div class="row2">
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-message"></i> lajdova.natal@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0900 000 000</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/nat%C3%A1lia-lajdov%C3%A1-910410213/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="gallery/Životopis - Natália Lajdová.pdf" download class="btn btn2">Stiahnuť CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Meno" placeholder="Vaše meno" required>
+                        <input type="text" name="Email" placeholder="Váš email" required>
+                        <textarea name="Správa" rows="6" placeholder="Vaša správa"></textarea>
+                        <button type="submit" class="btn btn2">Odoslať</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Natália Lajdová</p>
+        </div>
+    </div>
+    
+    <!-- <script src="web.js"></script> -->
+
+    <script>
+
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+       
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+
+    <script>
+
+
+        var sidemenu = document.getElementById("sidemenu");
+
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+        sidemenu.addEventListener("click", function(event) {
+        var targetElement = event.target;
+
+        if (targetElement.tagName === "A" && window.innerWidth <= 768) {
+        closemenu();
+      }
+    });
+
+    window.onresize = function() {
+      if (window.innerWidth > 768) {
+        openmenu();
+      } else {
+        closemenu();
+      }
+    };
+    
+    </script>
+
+    <!-- <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzWXe3REXDYES_qPhrPnQ0ywrZfrpZFhvcoDsb0kn0HWDaQai8oE8-T1EoyuuO6vFKULg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Vaša správa bola odoslaná"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script> -->
+</body>
+</html>
